@@ -90,8 +90,7 @@ $(document).ready(function(){
   }
   
 
-
-    //Reset Game
+  //Reset Game
     $('.new').click(function(e) {
       e.preventDefault();
       secretNumber = Math.floor((Math.random() * 100) + 1);
