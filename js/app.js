@@ -101,9 +101,7 @@ $(document).ready(function(){
       $('#feedback').text("Make your Guess!");
       $('#userGuess').text("Enter your Guess");
       $('#count').text("0");
-
       document.getElementById('userGuess').focus();
-   
     });
 
 });
